@@ -8,23 +8,23 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pedro\\.nuget\\packages\\": {},
+    "C:\\Users\\Pedro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro\\OneDrive - Fatec Centro Paula Souza\\ADS\\2º Semestre - 2021.2\\Sistemas de Informação\\Exercicios\\VB.NET\\Aula09CadastroCPF\\Aula09CadastroCPF\\Aula09CadastroClientes.vbproj",
+      "projectUniqueName": "C:\\Dev\\VB.NET\\Aula09CadastroCPF\\Aula09CadastroCPF\\Aula09CadastroClientes.vbproj",
       "projectName": "Aula09CadastroClientes",
-      "projectPath": "C:\\Users\\pedro\\OneDrive - Fatec Centro Paula Souza\\ADS\\2º Semestre - 2021.2\\Sistemas de Informação\\Exercicios\\VB.NET\\Aula09CadastroCPF\\Aula09CadastroCPF\\Aula09CadastroClientes.vbproj",
-      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\OneDrive - Fatec Centro Paula Souza\\ADS\\2º Semestre - 2021.2\\Sistemas de Informação\\Exercicios\\VB.NET\\Aula09CadastroCPF\\Aula09CadastroCPF\\obj\\",
+      "projectPath": "C:\\Dev\\VB.NET\\Aula09CadastroCPF\\Aula09CadastroCPF\\Aula09CadastroClientes.vbproj",
+      "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\VB.NET\\Aula09CadastroCPF\\Aula09CadastroCPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -60,6 +60,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.11, 5.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -68,7 +86,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
       }
     }
   }

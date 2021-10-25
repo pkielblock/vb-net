@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "i8AYK3WeMoDV2PC/me/RPz2+H49QHcJ9QRCtZHyBAYij5kMdD6reSIvKPfZ31PrT9eJR5/k9Vh7PcDKYGNZU1w==",
+  "dgSpecHash": "6x4Prsm6heJTQQeqesl4qwqtKyHg7+bNd1F7dGZ+aS/7Zssxd12nK6ZSyQSxJfw0gF59wtce7F3xwZr81+nBsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro\\OneDrive - Fatec Centro Paula Souza\\ADS\\2º Semestre - 2021.2\\Sistemas de Informação\\Exercicios\\VB.NET\\Aula09CadastroCPF\\Aula09CadastroCPF\\Aula09CadastroClientes.vbproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Dev\\VB.NET\\Aula09CadastroCPF\\Aula09CadastroCPF\\Aula09CadastroClientes.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512",
+    "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
