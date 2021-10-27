@@ -39,7 +39,7 @@
         End Try
     End Sub
 
-    Private Sub txtCPF_LostFocus(sender As Object, e As EventArgs) Handles txtCPF.LostFocus
+    Private Sub txtCep_LostFocus(sender As Object, e As EventArgs) Handles txtCEP.LostFocus
         Try
             sql = "select * from tb_cep where cep='" & txtCEP.Text & "'"
             rs = db.Execute(sql)
