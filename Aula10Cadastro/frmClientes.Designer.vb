@@ -51,20 +51,30 @@ Partial Class frmClientes
         Me.txtCPF = New System.Windows.Forms.MaskedTextBox()
         Me.imgFoto = New System.Windows.Forms.PictureBox()
         Me.tbListagemClientes = New System.Windows.Forms.TabPage()
+        Me.dgvDados = New System.Windows.Forms.DataGridView()
+        Me.colNum = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colCPF = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colNome = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colEditar = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.colExcluir = New System.Windows.Forms.DataGridViewImageColumn()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.btnSalvar = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.btnDeletar = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.btnPesquisarCPF = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
         Me.lblPesquisar = New System.Windows.Forms.ToolStripLabel()
         Me.txtPesquisar = New System.Windows.Forms.ToolStripTextBox()
-        Me.btnPesquisar = New System.Windows.Forms.ToolStripButton()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.btnLimpar = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
         Me.tbCadastro.SuspendLayout()
         Me.tbDadosPessoais.SuspendLayout()
         CType(Me.imgFoto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tbListagemClientes.SuspendLayout()
+        CType(Me.dgvDados, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -76,7 +86,7 @@ Partial Class frmClientes
         Me.tbCadastro.Location = New System.Drawing.Point(0, 24)
         Me.tbCadastro.Name = "tbCadastro"
         Me.tbCadastro.SelectedIndex = 0
-        Me.tbCadastro.Size = New System.Drawing.Size(437, 357)
+        Me.tbCadastro.Size = New System.Drawing.Size(442, 323)
         Me.tbCadastro.TabIndex = 0
         '
         'tbDadosPessoais
@@ -109,7 +119,7 @@ Partial Class frmClientes
         Me.tbDadosPessoais.Location = New System.Drawing.Point(4, 24)
         Me.tbDadosPessoais.Name = "tbDadosPessoais"
         Me.tbDadosPessoais.Padding = New System.Windows.Forms.Padding(3)
-        Me.tbDadosPessoais.Size = New System.Drawing.Size(429, 329)
+        Me.tbDadosPessoais.Size = New System.Drawing.Size(434, 295)
         Me.tbDadosPessoais.TabIndex = 0
         Me.tbDadosPessoais.Text = "Dados Pessoais"
         Me.tbDadosPessoais.UseVisualStyleBackColor = True
@@ -283,9 +293,9 @@ Partial Class frmClientes
         'txtDataNasc
         '
         Me.txtDataNasc.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.txtDataNasc.Location = New System.Drawing.Point(165, 27)
+        Me.txtDataNasc.Location = New System.Drawing.Point(158, 27)
         Me.txtDataNasc.Name = "txtDataNasc"
-        Me.txtDataNasc.Size = New System.Drawing.Size(136, 23)
+        Me.txtDataNasc.Size = New System.Drawing.Size(143, 23)
         Me.txtDataNasc.TabIndex = 4
         Me.txtDataNasc.Value = New Date(2021, 10, 19, 0, 0, 0, 0)
         '
@@ -312,7 +322,7 @@ Partial Class frmClientes
         Me.txtCPF.Location = New System.Drawing.Point(7, 27)
         Me.txtCPF.Mask = "999,999,999-99"
         Me.txtCPF.Name = "txtCPF"
-        Me.txtCPF.Size = New System.Drawing.Size(129, 23)
+        Me.txtCPF.Size = New System.Drawing.Size(145, 23)
         Me.txtCPF.TabIndex = 0
         Me.txtCPF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -329,14 +339,68 @@ Partial Class frmClientes
         '
         'tbListagemClientes
         '
+        Me.tbListagemClientes.Controls.Add(Me.dgvDados)
         Me.tbListagemClientes.Controls.Add(Me.DataGridView1)
         Me.tbListagemClientes.Location = New System.Drawing.Point(4, 24)
         Me.tbListagemClientes.Name = "tbListagemClientes"
         Me.tbListagemClientes.Padding = New System.Windows.Forms.Padding(3)
-        Me.tbListagemClientes.Size = New System.Drawing.Size(429, 329)
+        Me.tbListagemClientes.Size = New System.Drawing.Size(434, 295)
         Me.tbListagemClientes.TabIndex = 1
         Me.tbListagemClientes.Text = "Listagem de Clientes"
         Me.tbListagemClientes.UseVisualStyleBackColor = True
+        '
+        'dgvDados
+        '
+        Me.dgvDados.AllowUserToAddRows = False
+        Me.dgvDados.AllowUserToDeleteRows = False
+        Me.dgvDados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
+        Me.dgvDados.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
+        Me.dgvDados.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.dgvDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDados.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colNum, Me.colCPF, Me.colNome, Me.colEditar, Me.colExcluir})
+        Me.dgvDados.Location = New System.Drawing.Point(8, 16)
+        Me.dgvDados.Name = "dgvDados"
+        Me.dgvDados.ReadOnly = True
+        Me.dgvDados.RowTemplate.Height = 25
+        Me.dgvDados.Size = New System.Drawing.Size(419, 271)
+        Me.dgvDados.TabIndex = 1
+        '
+        'colNum
+        '
+        Me.colNum.HeaderText = "Nº"
+        Me.colNum.Name = "colNum"
+        Me.colNum.ReadOnly = True
+        Me.colNum.Width = 46
+        '
+        'colCPF
+        '
+        Me.colCPF.HeaderText = "CPF"
+        Me.colCPF.Name = "colCPF"
+        Me.colCPF.ReadOnly = True
+        Me.colCPF.Width = 53
+        '
+        'colNome
+        '
+        Me.colNome.HeaderText = "Nome"
+        Me.colNome.Name = "colNome"
+        Me.colNome.ReadOnly = True
+        Me.colNome.Width = 65
+        '
+        'colEditar
+        '
+        Me.colEditar.HeaderText = "Editar"
+        Me.colEditar.Image = CType(resources.GetObject("colEditar.Image"), System.Drawing.Image)
+        Me.colEditar.Name = "colEditar"
+        Me.colEditar.ReadOnly = True
+        Me.colEditar.Width = 43
+        '
+        'colExcluir
+        '
+        Me.colExcluir.HeaderText = "Excluir"
+        Me.colExcluir.Image = CType(resources.GetObject("colExcluir.Image"), System.Drawing.Image)
+        Me.colExcluir.Name = "colExcluir"
+        Me.colExcluir.ReadOnly = True
+        Me.colExcluir.Width = 48
         '
         'DataGridView1
         '
@@ -344,15 +408,16 @@ Partial Class frmClientes
         Me.DataGridView1.Location = New System.Drawing.Point(8, 16)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 25
-        Me.DataGridView1.Size = New System.Drawing.Size(409, 271)
+        Me.DataGridView1.Size = New System.Drawing.Size(403, 261)
         Me.DataGridView1.TabIndex = 0
         '
         'ToolStrip1
         '
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnSalvar, Me.ToolStripSeparator2, Me.btnDeletar, Me.ToolStripSeparator3, Me.lblPesquisar, Me.txtPesquisar, Me.btnPesquisar})
+        Me.ToolStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnSalvar, Me.ToolStripSeparator2, Me.btnDeletar, Me.ToolStripSeparator1, Me.btnPesquisarCPF, Me.ToolStripSeparator3, Me.btnLimpar, Me.ToolStripSeparator4, Me.lblPesquisar, Me.txtPesquisar})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(433, 25)
+        Me.ToolStrip1.Size = New System.Drawing.Size(442, 25)
         Me.ToolStrip1.TabIndex = 1
         Me.ToolStrip1.Text = "ToolStrip1"
         '
@@ -363,7 +428,7 @@ Partial Class frmClientes
         Me.btnSalvar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnSalvar.Name = "btnSalvar"
         Me.btnSalvar.Size = New System.Drawing.Size(23, 22)
-        Me.btnSalvar.Text = "ToolStripButton1"
+        Me.btnSalvar.Text = "Salvar"
         Me.btnSalvar.ToolTipText = "Salvar"
         '
         'ToolStripSeparator2
@@ -378,8 +443,22 @@ Partial Class frmClientes
         Me.btnDeletar.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnDeletar.Name = "btnDeletar"
         Me.btnDeletar.Size = New System.Drawing.Size(23, 22)
-        Me.btnDeletar.Text = "ToolStripButton2"
+        Me.btnDeletar.Text = "Deletar"
         Me.btnDeletar.ToolTipText = "Deletar"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 25)
+        '
+        'btnPesquisarCPF
+        '
+        Me.btnPesquisarCPF.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.btnPesquisarCPF.Image = CType(resources.GetObject("btnPesquisarCPF.Image"), System.Drawing.Image)
+        Me.btnPesquisarCPF.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnPesquisarCPF.Name = "btnPesquisarCPF"
+        Me.btnPesquisarCPF.Size = New System.Drawing.Size(23, 22)
+        Me.btnPesquisarCPF.Text = "Procurar CPF"
         '
         'ToolStripSeparator3
         '
@@ -394,28 +473,33 @@ Partial Class frmClientes
         '
         'txtPesquisar
         '
+        Me.txtPesquisar.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtPesquisar.Name = "txtPesquisar"
         Me.txtPesquisar.Size = New System.Drawing.Size(100, 25)
-        '
-        'btnPesquisar
-        '
-        Me.btnPesquisar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.btnPesquisar.Image = CType(resources.GetObject("btnPesquisar.Image"), System.Drawing.Image)
-        Me.btnPesquisar.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.btnPesquisar.Name = "btnPesquisar"
-        Me.btnPesquisar.Size = New System.Drawing.Size(23, 22)
-        Me.btnPesquisar.Text = "ToolStripButton3"
-        Me.btnPesquisar.ToolTipText = "Pesquisar"
         '
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
+        'btnLimpar
+        '
+        Me.btnLimpar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.btnLimpar.Image = CType(resources.GetObject("btnLimpar.Image"), System.Drawing.Image)
+        Me.btnLimpar.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnLimpar.Name = "btnLimpar"
+        Me.btnLimpar.Size = New System.Drawing.Size(23, 22)
+        Me.btnLimpar.Text = "Limpar"
+        '
+        'ToolStripSeparator4
+        '
+        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 25)
+        '
         'frmClientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(433, 347)
+        Me.ClientSize = New System.Drawing.Size(442, 348)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.tbCadastro)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
@@ -429,6 +513,7 @@ Partial Class frmClientes
         Me.tbDadosPessoais.PerformLayout()
         CType(Me.imgFoto, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tbListagemClientes.ResumeLayout(False)
+        CType(Me.dgvDados, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
@@ -473,6 +558,15 @@ Partial Class frmClientes
     Friend WithEvents ToolStripSeparator3 As ToolStripSeparator
     Friend WithEvents lblPesquisar As ToolStripLabel
     Friend WithEvents txtPesquisar As ToolStripTextBox
-    Friend WithEvents btnPesquisar As ToolStripButton
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents dgvDados As DataGridView
+    Friend WithEvents colNum As DataGridViewTextBoxColumn
+    Friend WithEvents colCPF As DataGridViewTextBoxColumn
+    Friend WithEvents colNome As DataGridViewTextBoxColumn
+    Friend WithEvents colEditar As DataGridViewImageColumn
+    Friend WithEvents colExcluir As DataGridViewImageColumn
+    Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents btnPesquisarCPF As ToolStripButton
+    Friend WithEvents btnLimpar As ToolStripButton
+    Friend WithEvents ToolStripSeparator4 As ToolStripSeparator
 End Class

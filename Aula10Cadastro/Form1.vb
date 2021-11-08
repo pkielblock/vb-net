@@ -18,4 +18,8 @@
             resp = MsgBox("Erro Ao Processar!", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "ATENÇÃO")
         End Try
     End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        connectDb()
+    End Sub
 End Class

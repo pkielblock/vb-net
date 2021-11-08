@@ -61,20 +61,20 @@ Partial Class Form1
         Me.menuClientes.Image = CType(resources.GetObject("menuClientes.Image"), System.Drawing.Image)
         Me.menuClientes.Name = "menuClientes"
         Me.menuClientes.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.menuClientes.Size = New System.Drawing.Size(180, 22)
+        Me.menuClientes.Size = New System.Drawing.Size(161, 22)
         Me.menuClientes.Text = "Clientes"
         '
         'FuncionariosToolStripMenuItem
         '
         Me.FuncionariosToolStripMenuItem.Name = "FuncionariosToolStripMenuItem"
-        Me.FuncionariosToolStripMenuItem.Size = New System.Drawing.Size(177, 6)
+        Me.FuncionariosToolStripMenuItem.Size = New System.Drawing.Size(158, 6)
         '
         'menuFuncionarios
         '
         Me.menuFuncionarios.Image = CType(resources.GetObject("menuFuncionarios.Image"), System.Drawing.Image)
         Me.menuFuncionarios.Name = "menuFuncionarios"
         Me.menuFuncionarios.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.menuFuncionarios.Size = New System.Drawing.Size(180, 22)
+        Me.menuFuncionarios.Size = New System.Drawing.Size(161, 22)
         Me.menuFuncionarios.Text = "Funcionários"
         '
         'menuGerenciamento
@@ -91,7 +91,7 @@ Partial Class Form1
         Me.menuContas.Image = CType(resources.GetObject("menuContas.Image"), System.Drawing.Image)
         Me.menuContas.Name = "menuContas"
         Me.menuContas.ShortcutKeys = System.Windows.Forms.Keys.F3
-        Me.menuContas.Size = New System.Drawing.Size(180, 22)
+        Me.menuContas.Size = New System.Drawing.Size(130, 22)
         Me.menuContas.Text = "Contas"
         '
         'menuCriarConta
@@ -99,7 +99,7 @@ Partial Class Form1
         Me.menuCriarConta.Image = CType(resources.GetObject("menuCriarConta.Image"), System.Drawing.Image)
         Me.menuCriarConta.Name = "menuCriarConta"
         Me.menuCriarConta.ShortcutKeys = System.Windows.Forms.Keys.F4
-        Me.menuCriarConta.Size = New System.Drawing.Size(180, 22)
+        Me.menuCriarConta.Size = New System.Drawing.Size(163, 22)
         Me.menuCriarConta.Text = "Criar Conta"
         '
         'menuAlterarConta
@@ -107,7 +107,7 @@ Partial Class Form1
         Me.menuAlterarConta.Image = CType(resources.GetObject("menuAlterarConta.Image"), System.Drawing.Image)
         Me.menuAlterarConta.Name = "menuAlterarConta"
         Me.menuAlterarConta.ShortcutKeys = System.Windows.Forms.Keys.F5
-        Me.menuAlterarConta.Size = New System.Drawing.Size(180, 22)
+        Me.menuAlterarConta.Size = New System.Drawing.Size(163, 22)
         Me.menuAlterarConta.Text = "Alterar Conta"
         '
         'menuAplicativos
@@ -123,7 +123,7 @@ Partial Class Form1
         Me.menuCalculadora.Image = CType(resources.GetObject("menuCalculadora.Image"), System.Drawing.Image)
         Me.menuCalculadora.Name = "menuCalculadora"
         Me.menuCalculadora.ShortcutKeys = System.Windows.Forms.Keys.F6
-        Me.menuCalculadora.Size = New System.Drawing.Size(180, 22)
+        Me.menuCalculadora.Size = New System.Drawing.Size(156, 22)
         Me.menuCalculadora.Text = "Calculadora"
         '
         'menuEncerrar
@@ -139,7 +139,7 @@ Partial Class Form1
         Me.menuSair.Image = CType(resources.GetObject("menuSair.Image"), System.Drawing.Image)
         Me.menuSair.Name = "menuSair"
         Me.menuSair.ShortcutKeys = System.Windows.Forms.Keys.F7
-        Me.menuSair.Size = New System.Drawing.Size(180, 22)
+        Me.menuSair.Size = New System.Drawing.Size(173, 22)
         Me.menuSair.Text = "Sair do Sistema"
         '
         'Form1
@@ -148,7 +148,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(430, 357)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
