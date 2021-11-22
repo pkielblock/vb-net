@@ -65,11 +65,11 @@ Partial Class frmClientes
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.btnPesquisarCPF = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.btnLimpar = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
         Me.lblPesquisar = New System.Windows.Forms.ToolStripLabel()
         Me.txtPesquisar = New System.Windows.Forms.ToolStripTextBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.btnLimpar = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
         Me.tbCadastro.SuspendLayout()
         Me.tbDadosPessoais.SuspendLayout()
         CType(Me.imgFoto, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -465,6 +465,20 @@ Partial Class frmClientes
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
         Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 25)
         '
+        'btnLimpar
+        '
+        Me.btnLimpar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.btnLimpar.Image = CType(resources.GetObject("btnLimpar.Image"), System.Drawing.Image)
+        Me.btnLimpar.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnLimpar.Name = "btnLimpar"
+        Me.btnLimpar.Size = New System.Drawing.Size(23, 22)
+        Me.btnLimpar.Text = "Limpar"
+        '
+        'ToolStripSeparator4
+        '
+        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 25)
+        '
         'lblPesquisar
         '
         Me.lblPesquisar.Name = "lblPesquisar"
@@ -480,20 +494,6 @@ Partial Class frmClientes
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
-        '
-        'btnLimpar
-        '
-        Me.btnLimpar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.btnLimpar.Image = CType(resources.GetObject("btnLimpar.Image"), System.Drawing.Image)
-        Me.btnLimpar.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.btnLimpar.Name = "btnLimpar"
-        Me.btnLimpar.Size = New System.Drawing.Size(23, 22)
-        Me.btnLimpar.Text = "Limpar"
-        '
-        'ToolStripSeparator4
-        '
-        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 25)
         '
         'frmClientes
         '

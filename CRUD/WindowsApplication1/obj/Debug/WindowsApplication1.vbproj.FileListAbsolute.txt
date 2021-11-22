@@ -1,0 +1,56 @@
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frm_media.resources
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+E:\Arquivos\SI\Visual Studio\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frm_cadastro.resources
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frm_media.resources
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\Interop.ADODB.dll
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.ResolveComReference.cache
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\obj\Debug\Interop.ADODB.dll
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.ResolveComReference.cache
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frm_cadastro.resources
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frm_media.resources
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Fatecscs\Desktop\WindowsApplication1\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.AssemblyReference.cache
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.SuggestedBindingRedirects.cache
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\Interop.ADODB.dll
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.ResolveComReference.cache
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.frm_cadastro.resources
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.frm_media.resources
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.cache
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.CoreCompileInputs.cache
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\pedro\Desktop\CRUD\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
